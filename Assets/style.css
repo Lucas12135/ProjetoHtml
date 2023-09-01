@@ -203,13 +203,40 @@ li {
 
 .main-criticas {
     background-color: black;
-    width: 1000px;
+    width: 1300px;
     height: 350px;
     margin-left: 300px;
     color: gold;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: italic;
 } 
-.criticas {
 
+.criticas {
+   display: flex;
+   width: 30px;
+   height: 30px;
+   padding-left: 15px;
+   flex-direction: row;
+   color: gray;
+   font-size: 15px;
+}
+
+.criticas-images {
+	margin: 0px 30px 0px 5px;
+
+}
+
+li {
+	color: #636262;
+	list-style-type: none;
+}
+
+.main-criticas-texto {
+     margin: 0px 0px 0px 20px;
+}
+
+#mais {
+	border: solid gray;
+	width: 500px;
+	height: 200px;
 }
