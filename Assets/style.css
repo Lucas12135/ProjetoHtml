@@ -1,9 +1,14 @@
+li {
+	list-style-type: square;
+}
+
 .cabecalho {
 	background-color: black;
 	display: flex;
 	justify-content: center;
-	width: 100%;
-	height: 110px;  
+	width: 110%;
+	height: 110px;
+	margin: -40px 0px 0px -20px;
 }
 
 
@@ -13,23 +18,198 @@
 	padding: 2px;
 	padding-top: 35px;
 	border-bottom: 2px solid #EBA600;
+	margin: 0px 19px 0px 5px;
    display: inline-block;
-   margin: 0px 15px 0px 5px;
+   text-transform: uppercase;
 }
 
 .cabecalho-itens a {
-	font-size: 20px;
 	color: white;
     text-decoration: none;
-    padding: 5px;
 }
 
 
 
 .cabecalho-titulo {
 	font-size: 45px;
-	margin: 10px 0px 0px 0px;
+	justify-content: center;
+    margin: 40px 0px 0px -255px;
 	color: #fcb103;
+	font-family: Georgia;
+}
+
+.destaque {
+    background-color: #dbd7d7;
+    display: flex;
+    justify-content: center;
+	width: 110%;
+	height: 45px;
+	margin-left: -20px;
+	font-size: 17px;
+	align-items: center;
+}
+
+.main {
+    background-color: #f5d905;
+    display: flex;
+    justify-content: center;
+	width: 110%;
+	height: 60px;
+	margin-left: -20px;
+	font-size: 20px;
+	align-items: center;
+}
+
+.main-circulo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #f5d905;
+	margin-top: 58px;
+	margin: 75px 0px 0px 45px;
+}
+
+.main-circulo-legenda {
+	text-align: center;
+	justify-content: center;
+    margin-top: 7px;
+    color: gray;
+    text-shadow: 0.3px 0.3px 0.3px black;
+    font-size: 14px;
+}
+
+.main-coluna-lateral-esquerda , .main-coluna-centro , .main-coluna-lateral-direita {
+	display: inline-block;
+	width: 500px;
+	height: 1700px;
+	flex-direction: column;
+	border-right: solid lightgray;
+}
+
+.main-coluna-centro {
 	display: flex;
-	margin-left: -100px; 
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    width: 650px;
+    height: 1000px;
+    align-items: center;
+}
+
+.main2-subnoticia {
+     color: gray;
+}
+
+#h4-1 {
+	color: gray;
+}
+
+.container-duna1 {
+	position: static;
+	margin: 150px 0px 0px 175px;
+	display: flex;
+	flex-direction: column;
+	padding: -5px;
+	z-index: -1;
+}
+
+.main-duna-legenda h2 {
+	justify-content: center;
+    margin-top: 10px;
+}
+
+.duna {
+   margin: 0, auto;
+}
+
+.main2 {
+	border: solid lightgray;
+	margin-top: 120px;
+	display: flex;
+}
+
+.categoria-main-filmes {
+	background-color: #ebf213;
+    color: black;
+    font-size: 22px;
+    margin-top: -20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 8%;
+    position: sticky;
+    z-index: 1;
+}
+
+.categoria-filme {
+	background-color: orange;
+    color: black;
+    margin: -30px 0px 0px 78px;
+    width: 10px;
+    height: 30px;
+    border-radius: 8%;
+    position: sticky;
+}
+
+.categoria-main-seriestv {
+	background-color: #ebf213;
+    color: black;
+    font-size: 22px;
+    margin-top: -20px;
+    width: 140px;
+    height: 30px;
+    border-radius: 8%;
+    position: sticky;
+    z-index: 1;
+}
+
+.categoria-seriestv {
+	background-color: lightgreen;
+    color: black;
+    margin: -30px 0px 0px 138px;
+    width: 10px;
+    height: 30px;
+    border-radius: 8%;
+    position: sticky;
+}
+
+.categoria-main-musica {
+	background-color: #ebf213;
+    color: black;
+    font-size: 22px;
+    margin-top: -20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 8%;
+    position: sticky;
+    z-index: 1;
+}
+
+.categoria-musica {
+	background-color: lightblue;
+    color: black;
+    margin: -30px 0px 0px 78px;
+    width: 10px;
+    height: 30px;
+    border-radius: 8%;
+    position: sticky;
+}
+
+.icon {
+    background: #f5d905;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.main-criticas {
+    background-color: black;
+    width: 1000px;
+    height: 350px;
+    margin-left: 300px;
+    color: gold;
+    font-size: 30px;
+    font-family: sans-serif;
+} 
+.criticas {
+
 }
