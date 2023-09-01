@@ -1,4 +1,35 @@
+.cabecalho {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 110px;  
+}
+
+
+.cabecalho-itens {
+	font-size: 18px;
+	color: white;
+	padding: 2px;
+	padding-top: 35px;
+	border-bottom: 2px solid #EBA600;
+   display: inline-block;
+   margin: 0px 15px 0px 5px;
+}
+
+.cabecalho-itens a {
+	font-size: 20px;
+	color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
 .cabecalho-titulo {
-	font-size: 100px;
-	color: yellow;
+	font-size: 45px;
+	margin: 10px 0px 0px 0px;
+	color: #fcb103;
+	display: flex;
+	margin-left: -100px; 
 }
