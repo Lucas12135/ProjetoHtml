@@ -236,7 +236,8 @@ li {
 }
 
 #mais {
-	border: solid gray;
+	border: solid 1px gray;
+	padding: 500px;
 	width: 500px;
 	height: 200px;
 }
