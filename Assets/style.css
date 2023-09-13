@@ -1,6 +1,15 @@
 li {
 	list-style-type: square;
 }
+header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
 
 a {
 	text-decoration: none;
@@ -222,7 +231,7 @@ a {
     margin-left: 100px;
     color: gold;
     font-size: 30px;
-    font-family: italic;
+    font-family: italic ;
 } 
 
 .criticas {
@@ -237,16 +246,15 @@ a {
 
 .criticas-images {
 	margin: 0px 30px 0px 5px;
-
-}
-
-.criticas-images {
 	color: #636262;
 	list-style-type: none;
 }
+.criticas-images img {
+	border: solid 1px #636262
+}
 
 .main-criticas-texto {
-     margin: 0px 0px 0px 20px;
+     margin-left: 20px;
 }
 
 #mais {
@@ -282,4 +290,14 @@ a {
 	border-width: 1px;
 	display: flex;
 	justify-content: center;
+}
+#circulomais {
+	font-size: 50px;
+	 background: white;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+     margin: 20px 0px 0px 1px;
+    padding: 15px 30px 15px 30px;
+    justify-content: center;
 }
