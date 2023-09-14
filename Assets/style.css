@@ -1,13 +1,11 @@
 li {
 	list-style-type: square;
 }
-
 header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
 }
-
 body {
 	margin: 0;
 	padding: 0;
@@ -228,9 +226,10 @@ a {
 
 .main-criticas {
     background-color: black;
-    width: 1200px;
+    width: 1300px;
     height: 350px;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     color: gold;
     font-size: 30px;
     font-family: italic ;
@@ -260,9 +259,10 @@ a {
 }
 
 #mais {
-	border: solid gray;
+	border: solid gray 1px;
 	width: 500px;
 	height: 200px;
+	padding: 5px;
 }
 
 .barra {
@@ -430,4 +430,75 @@ a {
 
 .forms {
 	display: flex;
+}
+
+.footer-preto {
+	background-color: black;
+	display: flex;
+}
+
+.footer-texto-principal {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	margin-left: 125px;
+	font-family:sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.footer-texto-principal p {
+	font-size: 10px;
+	color: gray;
+}
+.footer-texto-principal h1 {
+	font-size: 20px;
+	border-bottom: solid 2px yellow;
+}
+
+#form2 {
+	border-top: solid gray 1px;
+	border-left: solid gray 1px;
+	border-right: solid orange 7px;
+	border-bottom: solid gray 1px;
+	width: 1150px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-right-radius: 3%;
+	border-bottom-right-radius: 3%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#form2 h2{
+	font-style: italic;	
+	font-family: fantasy;
+	margin-left: 25px;
+}
+
+#form1 {
+
+}
+
+label {
+	margin-left: 10px;
+}
+
+select {
+	width: 1000px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+input {
+	width: 800px;
+	height: 30px;
+}
+
+button {
+	width: 150px;
+	height: 40px;
+	background-color: orange;
+	border: none;
+	margin-left: 8px;
 }
