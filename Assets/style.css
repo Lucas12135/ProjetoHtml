@@ -70,6 +70,13 @@ a {
 	position: fixed;
 	top: 60px;
 	z-index: 2;
+	text-align: center;
+}
+
+.destaque a {
+	color: black;
+	text-decoration-color: black;
+	text-transform: uppercase;
 }
 
 .main {
