@@ -104,7 +104,7 @@ a {
 .main-coluna-lateral-esquerda , .main-coluna-centro , .main-coluna-lateral-direita {
 	display: inline-block;
 	width: 105%;
-	height: 1700px;
+	height: 1000px;
 	flex-direction: column;
 	border-right: solid lightgray;
 	margin-bottom: -600px;
