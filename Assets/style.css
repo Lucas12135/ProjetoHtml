@@ -619,6 +619,84 @@ button {
 	font-style: italic;
 }
 
+.main3 {
+	display: flex;
+}
+
+.mais-lidas {
+	padding: 80px;
+	width: 320px;
+	height: 600px;
+	border: solid lightgray 0.3px;
+
+}
+
+aside {
+	float: right;
+	display: flex;
+	flex-direction: column;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+}
+
+mais-lidas{
+	border: none;
+	background-color: none;
+}
+
+.mais-lidas td {
+	display: flex;
+	height: 20%;
+	width: 100%;
+	border: solid white 0.01px;
+	background-color: #f1f1f1;
+	color: black;
+	border-radius: 3px;
+	padding: 0;
+	align-items: center;
+}
+
+.mais-lidas td:hover {
+	color: darkorange;
+}
+
+.mais-lidas h1 {
+	width: 25%;
+	float: left;
+	margin-left: auto;
+	margin-right: 25px;
+	font-size: 40px;
+	font-weight: lighter;
+	padding-left: 20px;
+
+}
+
+.mais-lidas p {
+	width: 170%;
+	word-wrap: break-word;
+	float: right;
+	margin-right: auto;
+	font-size: 17px;
+}
+
+.h3-mais-lidas{
+    font-family: uni-book;
+    font-style: italic;
+    font-size: 18px!important;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+    padding-left: 30px;
+}
+
+#estrela {
+	margin-left: 130px;
+	margin-top: 10px;
+}
+
 @media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
