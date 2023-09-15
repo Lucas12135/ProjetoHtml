@@ -116,7 +116,8 @@ a {
 	display: flex;
     flex-direction: column;
     padding-right: 50px;
-    margin: 20px 0px 0px 20px;
+    padding-left:50px;
+    margin: 0px 0px 0px 0px;
     width: 650px;
     height: 1000px;
     align-items: center;
