@@ -14,7 +14,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: gray;
+	color: black;
 }
 
 
@@ -151,7 +151,23 @@ a {
 }
 
 .main2-subnoticia {
-     color: gray;
+     color: #ffbf00;
+}
+
+.main2-subnoticia a{
+	color: black;
+}
+
+marker {
+	border: 1px solid darkorange;
+}
+
+.main2-subnoticia a:hover {
+	color: #ffbf00;
+}
+
+.main2-subnoticia {
+     color: black;
 }
 
 #h4-1 {
@@ -173,6 +189,11 @@ a {
 .main-duna-legenda h2 {
 	justify-content: center;
     margin-top: 10px;
+}
+
+.main-duna-legenda a:hover {
+	color: #ffbf00;
+
 }
 
 .main2 {
@@ -428,7 +449,7 @@ a {
 }
 
 .tempo {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .noticia-filme {
