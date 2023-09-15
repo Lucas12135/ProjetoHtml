@@ -109,7 +109,7 @@ a {
 
 .main-coluna-lateral-esquerda {
 	align-items: center;
-	justify-content: center;
+ padding-right: 50px
 }
 
 .main-coluna-centro {
