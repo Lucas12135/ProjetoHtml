@@ -131,6 +131,18 @@ a {
 	padding-left:50px;
 }
 
+.publi {
+	margin: 20px 0px 0px 20px;
+	display: flex;
+	flex-direction: column;
+	direction: left;
+}
+.publi-legenda {
+	display: flex;
+	flex-direction: column;
+	direction: left;
+}
+
 .main2-subnoticia {
      color: gray;
 }
